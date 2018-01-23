@@ -2,9 +2,9 @@
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
-  "main": "runbot.bat",
+  "main": "run.py",
   "scripts": {
-    "start": "node runbot.bat"
+    "start": "node run.py"
   },
   "dependencies": {
     "discord.js": "11.1.0",
