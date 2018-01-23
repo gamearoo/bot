@@ -1,0 +1,68 @@
+[935.317039490] 2018-01-22 15:07:10,419 - INFO - launcher: Starting sanity checks
+[936.319351196] 2018-01-22 15:07:10,420 - INFO - launcher: Checking for Python 3.5+
+[936.821699142] 2018-01-22 15:07:10,421 - INFO - launcher: Checking console encoding
+[937.321662903] 2018-01-22 15:07:10,421 - INFO - launcher: Setting console encoding to UTF-8
+[937.321662903] 2018-01-22 15:07:10,421 - INFO - launcher: Ensuring we're in the right environment
+[952.395439148] 2018-01-22 15:07:10,436 - INFO - launcher: Adding local bins/ folder to path
+[964.813232422] 2018-01-22 15:07:10,449 - INFO - launcher: Checks passed.
+[966.783523560] 2018-01-22 15:07:10,451 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[15.6685223579406738] 2018-01-22 15:07:25,153 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 203 in _setup_logging: Set logging level to INFO
+[15.6685223579406738] 2018-01-22 15:07:25,153 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 76 in __init__: Loaded autoplaylist with 1 entries
+[15.671324730] launcher-INFO: Connecting
+[18.6803476810455322] 2018-01-22 15:07:28,164 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 993 in on_ready: Connection established, ready to go.
+[18.6808550357818604] 2018-01-22 15:07:28,165 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 314 in _cache_app_info: Caching app info
+[18.7472050189971924] 2018-01-22 15:07:28,231 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[18.7732255458831787] 2018-01-22 15:07:28,257 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 826 in _scheck_server_permissions: Checking server permissions
+[18.7732255458831787] 2018-01-22 15:07:28,257 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[18.7737267017364502] 2018-01-22 15:07:28,258 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 834 in _scheck_configs: Validating config
+[18.7742269039154053] 2018-01-22 15:07:28,258 - DEBUG - musicbot.config | In config.py::MainThread(11404), line 175 in async_validate: Validating options...
+[18.7742269039154053] 2018-01-22 15:07:28,258 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 837 in _scheck_configs: Validating permissions config
+[18.7747640609741211] 2018-01-22 15:07:28,259 - DEBUG - musicbot.permissions | In permissions.py::MainThread(11404), line 59 in async_validate: Validating permissions...
+[18.7752358913421631] 2018-01-22 15:07:28,259 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[18.7782530784606934] 2018-01-22 15:07:28,262 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1014 in on_ready: Bot:   315656648871903232/Gamearoomusic#1054 [BOT]
+[18.7804050445556641] 2018-01-22 15:07:28,264 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1022 in on_ready: Owner: 309854452246904833/Gamearoo#3928
+
+[18.7819113731384277] 2018-01-22 15:07:28,266 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1025 in on_ready: Server List:
+[18.7839484214782715] 2018-01-22 15:07:28,268 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1026 in <listcomp>:  - Gamearoo's server
+[18.7859525680541992] 2018-01-22 15:07:28,270 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1026 in <listcomp>:  - @fun55
+[18.7900521755218506] 2018-01-22 15:07:28,274 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1070 in on_ready: Not bound to any text channels
+[18.7910156250000000] 2018-01-22 15:07:28,275 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1096 in on_ready: Not autojoining any voice channels
+[18.7930240631103516] 2018-01-22 15:07:28,277 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1100 in on_ready: Options:
+[18.7950272560119629] 2018-01-22 15:07:28,279 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1102 in on_ready:   Command prefix: /
+[18.7960293292999268] 2018-01-22 15:07:28,280 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1103 in on_ready:   Default volume: 25%
+[18.8000779151916504] 2018-01-22 15:07:28,284 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1105 in on_ready:   Skip threshold: 4 votes or 50%
+[18.8000779151916504] 2018-01-22 15:07:28,284 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[18.8010666370391846] 2018-01-22 15:07:28,285 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1107 in on_ready:   Auto-Summon: Enabled
+[18.8020436763763428] 2018-01-22 15:07:28,286 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1108 in on_ready:   Auto-Playlist: Enabled
+[18.8030548095703125] 2018-01-22 15:07:28,287 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1109 in on_ready:   Auto-Pause: Disabled
+[18.8050529956817627] 2018-01-22 15:07:28,289 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1110 in on_ready:   Delete Messages: Disabled
+[18.8060605525970459] 2018-01-22 15:07:28,290 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1113 in on_ready:   Debug Mode: Disabled
+[18.8060605525970459] 2018-01-22 15:07:28,290 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1114 in on_ready:   Downloaded songs will be saved
+[56.5372848510742188] 2018-01-22 15:08:06,021 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 2359 in on_message: 309854452246904833/Gamearoo#3928: /help
+[95.1044349670410156] 2018-01-22 15:08:44,589 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11404), line 2528 in on_voice_state_update: Voice state update for 309854452246904833/Gamearoo#3928 on Gamearoo's server/MUSIC -> [CONNECT]
+[98.3711316585540771] 2018-01-22 15:08:47,855 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11404), line 2528 in on_voice_state_update: Voice state update for 309854452246904833/Gamearoo#3928 on Gamearoo's server/MUSIC -> [MUTE]
+[109.4983868598937988] 2018-01-22 15:08:58,982 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 2359 in on_message: 309854452246904833/Gamearoo#3928: /summon
+[109.5013544559478760] 2018-01-22 15:08:58,985 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 1769 in cmd_summon: Joining Gamearoo's server/MUSIC
+[109.5033607482910156] 2018-01-22 15:08:58,987 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 427 in get_voice_client: Connection attempt 1 to MUSIC
+[109.5033607482910156] 2018-01-22 15:08:58,987 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11404), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[109.5043630599975586] 2018-01-22 15:08:58,988 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11404), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[109.5053985118865967] 2018-01-22 15:08:58,989 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11404), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[109.6436114311218262] 2018-01-22 15:08:59,128 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11404), line 2528 in on_voice_state_update: Voice state update for 315656648871903232/Gamearoomusic#1054 on Gamearoo's server/MUSIC -> [JOIN, CONNECT]
+[109.6446149349212646] 2018-01-22 15:08:59,129 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 2539 in on_voice_state_update: 315656648871903232/Gamearoomusic#1054 has joined Gamearoo's server/MUSIC
+[109.6466200351715088] 2018-01-22 15:08:59,131 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11404), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[109.6476268768310547] 2018-01-22 15:08:59,132 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11404), line 393 in join_voice_channel: (join_voice_channel) connecting...
+[110.0995497703552246] 2018-01-22 15:08:59,584 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(11404), line 405 in join_voice_channel: (join_voice_channel) connection successful
+[110.1005218029022217] 2018-01-22 15:08:59,585 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 453 in get_voice_client: Connected in 0.6s
+[110.1005218029022217] 2018-01-22 15:08:59,585 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 454 in get_voice_client: Connected to Gamearoo's server/MUSIC
+[110.1035261154174805] 2018-01-22 15:08:59,588 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 787 in deserialize_queue: Deserializing queue for 309855058445729792
+[110.4623644351959229] 2018-01-22 15:08:59,946 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 545 in get_player: Created player via deserialization for server 309855058445729792 with 1 entries
+[110.4623644351959229] 2018-01-22 15:08:59,946 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 763 in serialize_queue: Serializing queue for 309855058445729792
+[110.4633653163909912] 2018-01-22 15:08:59,947 - VOICEDEBUG - musicbot.player | In player.py::MainThread(11404), line 311 in websocket_check: Starting websocket check loop for Gamearoo's server
+[110.4633653163909912] 2018-01-22 15:08:59,947 - FFMPEG - musicbot.player | In player.py::MainThread(11404), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-NZ9d6BkOWFs-Top_50_Minecraft_Songs_2013.webm
+[110.5293331146240234] 2018-01-22 15:09:00,013 - DEBUG - musicbot.bot | In bot.py::MainThread(11404), line 763 in serialize_queue: Serializing queue for 309855058445729792
+[2071.2345399856567383] 2018-01-22 15:41:40,719 - INFO - musicbot.bot | In bot.py::MainThread(11404), line 2359 in on_message: 309854452246904833/Gamearoo#3928: /shutdown
+[2071.684995413] launcher-INFO: All done.

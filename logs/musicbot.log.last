@@ -1,0 +1,49 @@
+[681.885004044] 2018-01-08 20:53:53,201 - INFO - launcher: Starting sanity checks
+[682.386398315] 2018-01-08 20:53:53,202 - INFO - launcher: Checking for Python 3.5+
+[683.889865875] 2018-01-08 20:53:53,203 - INFO - launcher: Checking console encoding
+[683.889865875] 2018-01-08 20:53:53,203 - INFO - launcher: Setting console encoding to UTF-8
+[684.392452240] 2018-01-08 20:53:53,204 - INFO - launcher: Ensuring we're in the right environment
+[705.126523972] 2018-01-08 20:53:53,224 - INFO - launcher: Adding local bins/ folder to path
+[721.062660217] 2018-01-08 20:53:53,240 - INFO - launcher: Checks passed.
+[778.706073761] 2018-01-08 20:53:53,298 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[9.5403015613555908] 2018-01-08 20:54:02,059 - DEBUG - musicbot.bot | In bot.py::MainThread(10976), line 203 in _setup_logging: Set logging level to INFO
+[9.5491077899932861] 2018-01-08 20:54:02,068 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 76 in __init__: Loaded autoplaylist with 1 entries
+[9.552497864] launcher-INFO: Connecting
+[13.6209814548492432] 2018-01-08 20:54:06,140 - DEBUG - musicbot.bot | In bot.py::MainThread(10976), line 993 in on_ready: Connection established, ready to go.
+[13.6214816570281982] 2018-01-08 20:54:06,141 - DEBUG - musicbot.bot | In bot.py::MainThread(10976), line 314 in _cache_app_info: Caching app info
+[13.6766290664672852] 2018-01-08 20:54:06,196 - DEBUG - musicbot.bot | In bot.py::MainThread(10976), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[13.6941757202148438] 2018-01-08 20:54:06,213 - DEBUG - musicbot.bot | In bot.py::MainThread(10976), line 826 in _scheck_server_permissions: Checking server permissions
+[13.6946778297424316] 2018-01-08 20:54:06,214 - DEBUG - musicbot.bot | In bot.py::MainThread(10976), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[13.6946778297424316] 2018-01-08 20:54:06,214 - DEBUG - musicbot.bot | In bot.py::MainThread(10976), line 834 in _scheck_configs: Validating config
+[13.6946778297424316] 2018-01-08 20:54:06,214 - DEBUG - musicbot.config | In config.py::MainThread(10976), line 175 in async_validate: Validating options...
+[13.6946778297424316] 2018-01-08 20:54:06,214 - DEBUG - musicbot.bot | In bot.py::MainThread(10976), line 837 in _scheck_configs: Validating permissions config
+[13.6946778297424316] 2018-01-08 20:54:06,214 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10976), line 59 in async_validate: Validating permissions...
+[13.6956791877746582] 2018-01-08 20:54:06,215 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[13.6961815357208252] 2018-01-08 20:54:06,215 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1014 in on_ready: Bot:   315656648871903232/Gamearoomusic#1054 [BOT]
+[13.6976854801177979] 2018-01-08 20:54:06,217 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1022 in on_ready: Owner: 309854452246904833/Gamearoo#3928
+
+[13.6981861591339111] 2018-01-08 20:54:06,217 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1025 in on_ready: Server List:
+[13.6992011070251465] 2018-01-08 20:54:06,218 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1026 in <listcomp>:  - Gamearoo's server
+[13.7001974582672119] 2018-01-08 20:54:06,219 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1026 in <listcomp>:  - @fun55
+[13.7006924152374268] 2018-01-08 20:54:06,220 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1026 in <listcomp>:  - Pixel Cove
+[13.7021965980529785] 2018-01-08 20:54:06,221 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1070 in on_ready: Not bound to any text channels
+[13.7026982307434082] 2018-01-08 20:54:06,222 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1096 in on_ready: Not autojoining any voice channels
+[13.7032017707824707] 2018-01-08 20:54:06,222 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1100 in on_ready: Options:
+[13.7037031650543213] 2018-01-08 20:54:06,223 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1102 in on_ready:   Command prefix: /
+[13.7047250270843506] 2018-01-08 20:54:06,224 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1103 in on_ready:   Default volume: 25%
+[13.7052044868469238] 2018-01-08 20:54:06,224 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1105 in on_ready:   Skip threshold: 4 votes or 50%
+[13.7057063579559326] 2018-01-08 20:54:06,225 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[13.7067084312438965] 2018-01-08 20:54:06,226 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1107 in on_ready:   Auto-Summon: Enabled
+[13.7067084312438965] 2018-01-08 20:54:06,226 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1108 in on_ready:   Auto-Playlist: Enabled
+[13.7077119350433350] 2018-01-08 20:54:06,227 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1109 in on_ready:   Auto-Pause: Disabled
+[13.7082138061523438] 2018-01-08 20:54:06,227 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1110 in on_ready:   Delete Messages: Disabled
+[13.7092208862304688] 2018-01-08 20:54:06,228 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1113 in on_ready:   Debug Mode: Disabled
+[13.7097177505493164] 2018-01-08 20:54:06,229 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 1114 in on_ready:   Downloaded songs will be saved
+[13.7102181911468506] 2018-01-08 20:54:06,229 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 248 in _join_startup_channels: Found owner in "🎵 Music Cove 🎵"
+[13.7107198238372803] 2018-01-08 20:54:06,230 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 257 in _join_startup_channels: Attempting to join Pixel Cove/🎵 Music Cove 🎵
+[13.7117228507995605] 2018-01-08 20:54:06,231 - INFO - musicbot.bot | In bot.py::MainThread(10976), line 266 in _join_startup_channels: Will not join channel "🎵 Music Cove 🎵", no permission to speak.
+[66.9130918979644775] 2018-01-08 20:54:59,432 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10976), line 2528 in on_voice_state_update: Voice state update for 309854452246904833/Gamearoo#3928 on Pixel Cove/🎵 Music Cove 🎵 -> [MUTE]
