@@ -1,5 +1,5 @@
 {
-  "name": "bot.py",
+  "name": "config.py",
   "description": "discord selfbot",
   "website": "http://selfbot-py.tk",
   "repository": "https://github.com/gamearoo/bot",
@@ -14,7 +14,7 @@
     },
     "GITHUBTOKEN": {
       "description": "Token for github api usage.",
-      "required": true
+      "required": false
     }
   }
 }
